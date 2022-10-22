@@ -463,7 +463,7 @@ $(function(){
 <div id="top">
    <?php if($allow_create_folder): ?>
 	<form action="?" method="post" id="mkdir" />
-		<label for=dirname>Create New Folder</label><input id=dirname type=text name=name value="" />
+		<label for=dirname>创建新文件夹</label><input id=dirname type=text name=name value="" />
 		<input type="submit" value="create" />
 	</form>
 
@@ -472,8 +472,8 @@ $(function(){
    <?php if($allow_upload): ?>
 
 	<div id="file_drop_target">
-		Drag Files Here To Upload
-		<b>or</b>
+		拖动文件到此处
+		<b>或者</b>
 		<input type="file" multiple />
 	</div>
    <?php endif; ?>
@@ -482,13 +482,13 @@ $(function(){
 
 <div id="upload_progress"></div>
 <table id="table"><thead><tr>
-	<th>Name</th>
-	<th>Size</th>
-	<th>Modified</th>
-	<th>Permissions</th>
-	<th>Actions</th>
+	<th>名称</th>
+	<th>大小</th>
+	<th>修改时间</th>
+	<th>权限</th>
+	<th>编辑</th>
 </tr></thead><tbody id="list">
 
 </tbody></table>
-<footer>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
+<footer text-align: center;>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
 </body></html>
