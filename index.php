@@ -490,5 +490,5 @@ $(function(){
 </tr></thead><tbody id="list">
 
 </tbody></table>
-<footer text-align: center;>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
+<footer><center>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></center></footer>
 </body></html>
