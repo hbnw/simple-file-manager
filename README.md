@@ -1,5 +1,6 @@
 simple-file-manager
 ===================
+汉化了部分菜单，能力有限
 
 A Simple PHP file manager.  The code is a single php file.  
 
